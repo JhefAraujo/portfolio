@@ -54,7 +54,7 @@ p {
     backdrop-filter: blur(3px);
     padding: 5px;
     border-radius: 5px;
-    background-color: rgba(39, 0, 31, 0.61);
+    background-color: rgba(0, 0, 0, 0.418);
     border: 1px solid rgba(255, 255, 255, 0.274);
     width: 300px;
     margin: auto;
