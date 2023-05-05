@@ -78,10 +78,11 @@ p {
 }
 
 #first {
-    background: url(angel.png) black;
+    background: url(angelrobot.png) black;
     background-size: contain;
     background-repeat: repeat-x;
-    animation: 10s angel infinite linear;
+    animation: 20s angel infinite linear;
+    background-position: center center;
     height: 100vh;
     width: 100vw;
     margin-top: 0;
@@ -156,9 +157,9 @@ p {
 
 @keyframes angel {
     0% {
-        background-position: 150%;
+        background-position: 150vw;
     }
     100% {
-        background-position: -50%;
+        background-position: -50vw;
     }
 }
