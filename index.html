@@ -7,7 +7,10 @@
     <title>Jhefferson Araújo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body" onload="loading()">
+    <div class="box-load">
+        <div class="pre">Carregando..</div>
+    </div>
     <main>
         <div class="banner">
             <video autoplay muted loop>
@@ -32,5 +35,13 @@
             <img src="right-hand.png" alt="right Hand">
         </div>
     </section>
+
+    <script>
+        function loading(){
+            document.getElementsByClassName("box-load")[0].style.display = "none";
+            document.body.style.overflow = "auto";
+            document.body.style.height = "auto";
+        }
+    </script>
 </body>
 </html>
