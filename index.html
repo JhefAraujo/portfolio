@@ -13,7 +13,7 @@
     </div>
     <main>
         <div class="banner">
-            <video autoplay muted loop>
+            <video preload="auto" autoplay muted loop>
                 <source src="bg.mp4" preload="" type="video/mp4">
             </video>
             <div class="content">
@@ -39,7 +39,7 @@
     <script>
         function loading(){
             document.getElementsByClassName("box-load")[0].style.display = "none";
-            document.body.style.overflow = "auto";
+            document.body.style.overflow = "hidden";
             document.body.style.height = "auto";
         }
     </script>
