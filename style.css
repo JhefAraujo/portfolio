@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body, html {
     height: 100%;
@@ -30,14 +31,20 @@ body {
 }
 
 .box-load {
-    font-size: small;
     display: flex;
+    letter-spacing: 0.2rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
     background-color: rgb(8, 8, 8);
     z-index: 5;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.box-load h1 {
+    transform: translateY(-15px);
 }
 
 .loader {
@@ -50,7 +57,7 @@ body {
 .loader span {
     position: absolute;
     display: block;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 50%;
     animation: loading 3s ease-in-out infinite;
     transform: translateZ(-100px);
